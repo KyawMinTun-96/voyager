@@ -1,0 +1,138 @@
+@font-face {
+	font-family: myriadproblack;
+	src: url('../fonts/Montserrat-Black.otf') format('opentype');
+}
+
+@font-face {
+	font-family: montserratbold;
+	src: url('../fonts/Montserrat-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: montserratregular;
+	src: url('../fonts/Montserrat-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: montserratlight;
+	src: url('../fonts/Montserrat-Light.otf') format('opentype');
+}
+
+:root {
+    /* Font Family */
+    --font-mpr: montserratregular;
+    --font-mpb: montserratbold;
+    --font-mpbk: myriadproblack;
+    --font-mplg: montserratlight;
+
+    /* Font Color */
+    --color-primary: #b8a47e;
+    --color-secondary: #ededed;
+    --color-thirstry: #919191;
+    --color-plight: #e1daca;
+    --color-default: #414141;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-slight: #969696;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-mpr);
+}
+
+ul,ol {
+    list-style-type: none;
+    padding: 0px;
+}
+
+h1 {
+    font-family: var(--font-mpb) !important;
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: var(--font-mpr) !important;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: var(--font-mpb) !important;
+    text-transform: uppercase;
+}
+
+input {
+    border: none;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none !important;
+    border: none;
+}
+
+body {
+    background-color: #ffffff !important;
+    font-size: 16px;
+    color: var(--color-default) !important;
+}
+
+.inner {
+    margin: 0 5%;
+}
+
+.inner-lg {
+    margin: 0 7%;
+}
+
+.hline {
+    background-color: var(--color-primary);
+    width: 30px;
+    height: 2px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.hdline {
+    position: relative;
+}
+
+.hdline::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: -40px;
+    width: 30px;
+    height: 2px;
+    background-color: var(--color-primary);
+}
+
+.hdline::after {
+    position: absolute;
+    content: '.';
+    color: var(--color-primary);
+    font-size: 30px;
+    line-height: 5px;
+    right: -30%;
+}
+
+.active {
+    color: var(--color-black) !important;
+    font-weight: 900 !important;
+}
+
+
+

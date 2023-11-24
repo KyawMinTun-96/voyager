@@ -1,0 +1,470 @@
+
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.banner .menuslider {
+    position: absolute;
+    min-width: 100%;
+    height: 90%;
+    left: 38%;
+    background-image: url('../images/slider.png');
+    background-size: contain;
+    z-index: 1;
+}
+
+.menubar {
+    background-color: green;
+    height: 100px;
+    display: none;
+}
+
+.menubar ul {
+    background-color: blue;
+    line-height: 100px;
+}
+
+.menubar ul li {
+    background-color: rosybrown;
+    padding: 3px;
+    display: inline-block
+}
+
+
+/* Label Box */
+.lablebox {
+    position: absolute;
+    left: 19%;
+	top: 50%;
+	transform: translateY(-50%);
+    z-index: 5;
+}
+
+.lablebox p {
+    font-size: 20px;
+}
+
+.lablebox h1 {
+    margin-top: 20px;
+}
+
+
+.btnGearUP {
+    margin: 30px 0 0 50px;
+    padding: 10px 20px;
+    font-family: var(--font-mpr);
+    color: var(--color-primary);
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+.btnGearUP i {
+    margin-left: 10px;
+}
+
+
+/* Voyager Section */
+.voyager {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.voyager > .imgblock {
+    width: 65%;
+    height: 350px;
+    background-image: url('../images/voyager.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imgblock h1 {
+    color: var(--color-white);
+    line-height: 350px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.txtblock {
+    background-color: red;
+    width: 35%;
+    height: 100%;
+    align-self: center;
+    position: relative;
+}
+
+
+.rectblock {
+    padding: 50px;
+    position: absolute;
+    left: -50%;
+    top: 50%;
+    right: 30%;
+    transform: translateY(-50%);
+    border: 1px solid var(--color-primary);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+
+
+/* Drifter */
+.drifter {
+    background-color: var(--color-secondary);
+    padding: 80px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.drifter > .imgblock {
+    width: 65%;
+    height: 350px;
+    background-image: url('../images/drifter.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.drifter > .imgblock h1 {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tinner Collections */
+.collectionblock {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.collectionblock h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ch3 {
+    text-align: left;
+    background-color: var(--color-plight);
+    width: 500px;
+    margin-left: auto;
+    padding: 3px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.ch3::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: -33%;
+    width: 30%;
+    height: 1.5px;
+    background-color: var(--color-black);
+}
+
+.collectionblock .h01 {
+    text-align: left;
+    color: var(--color-slight);
+    position: relative;
+}
+
+.collectionblock .h01::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 6%;
+    width: 10%;
+    height: 1.5px;
+    background-color: var(--color-black);
+} 
+
+
+.c01 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+    position: relative;
+}
+
+.c01 div {
+    margin-right: 15px;
+}
+
+.c01 .ch04 {
+    margin-bottom: 20px;
+}
+
+.c01 div:last-child {
+    margin-right: 0;
+    padding-left: 40px;
+    position: relative;
+}
+
+.c01 div:last-child p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 2;
+}
+
+.c01 div:last-child p a {
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--color-default);
+}
+
+.c01 div:last-child p img {
+    margin-top: 50px;
+    width: 150px;
+    opacity: 0.2;
+    margin-left: 5px;
+}
+
+.c01 div:last-child::before {
+    position: absolute;
+    content: '';
+    top: -35%;
+    left: 40px;
+    width: 1.5px;
+    height: 20%;
+    background-color: var(--color-black);
+}
+
+.c01 div:last-child::after{
+    position: absolute;
+    content: '';
+    top: 70%;
+    left: 40px;
+    width: 1.5px;
+    height: 40%;
+    background-color: var(--color-black);
+}
+
+.c01mini {
+    position: absolute;
+    content: '';
+    bottom: -60%;
+    right: 3%;
+    display: flex;
+    background-color: var(--color-white);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+
+.c02 {
+    padding: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Section */
+
+.ftblock {
+    background-color: var(--color-secondary);
+    width: 100%;
+    padding: 30px 0;
+    
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+}
+
+.foot div {
+    margin: 0 5px;
+
+}
+
+.ftlogo {
+
+}
+
+.ftlogo img{
+    width: 150px;
+}
+
+.ftnav {
+    flex: 1;
+}
+
+.ftnav div {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ftnav div span a{
+    font-family: var(fontmpb);
+    color: var(--color-thirstry);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.ftlocation {
+
+}
+
+.ftlocation h5{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ftlocation p{
+    font-size: 12px !important;
+    text-align: left;
+}
+
+.ftemail {
+}
+
+
+.ftemail h4{
+    font-family: var(--font-mpb);
+    margin-bottom: 20px;
+}
+
+.ftemail p {
+    margin-bottom: 20px;
+    font-family: var(--font-mplg);
+    font-size: 12px;
+}
+
+.ftemail input {
+    padding: 8px 5px;
+    outline: none !important;
+    border-radius: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+}
+
+.ftemail > button {
+    background-color: var(--color-black);
+    padding: 8px 20px;
+}
+
+.ftemail > button::placeholder {
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+}
+
+.ftemail > button >i {
+    color: var(--color-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cp {
+    width: 100%;
+    margin-top: 50px;
+    /* padding: 0 5%; */
+    display: flex;
+}
+
+.cp > div:nth-child(1) {
+    width: 25%;
+    font-size: 12px !important;
+    align-self: center;
+    font-family: var(--font-mplg);
+    margin-right: 20px;
+}
+
+.cp > div:last-child {
+    width: 75%;
+    flex: 1;
+}
+
+.sociallinks {
+    display: flex;
+}
+
+.sociallinks span {
+    width: 150px;
+    justify-content: space-around;
+}
+
+.sociallinks span::after {
+    right: 58%;
+}
+
+.sociallinks span a{
+    font-family: var(--font-mplg);
+    color: var(--color-thirstry);
+    font-size: 12px;
+}
