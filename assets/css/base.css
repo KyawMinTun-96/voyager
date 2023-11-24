@@ -27,6 +27,7 @@
 
     /* Font Color */
     --color-primary: #b8a47e;
+    --color-plightb: #b8a47f;
     --color-secondary: #ededed;
     --color-thirstry: #919191;
     --color-plight: #e1daca;
@@ -55,6 +56,13 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-size: 23px;
+    letter-spacing: 5px;
+    font-family: var(--font-mpb) !important;
+    text-transform: uppercase;
+}
+
 h3 {
     font-size: 18px;
     font-family: var(--font-mpr) !important;
@@ -62,7 +70,7 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 23px;
     letter-spacing: 3px;
     font-family: var(--font-mpb) !important;
     text-transform: uppercase;
@@ -95,6 +103,8 @@ body {
 .inner-lg {
     margin: 0 7%;
 }
+
+
 
 .hline {
     background-color: var(--color-primary);
@@ -132,6 +142,49 @@ body {
 .active {
     color: var(--color-black) !important;
     font-weight: 900 !important;
+}
+
+.slideactive {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+    font-size: 30px !important;
+    font-family: var(--font-mpr);
+    color: var(--color-black) !important;
+    background-color: var(--color-white);
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 1px 1px 4px -1px #000;
+}
+
+.btnactive {
+    color: var(--color-primary);
+}
+
+
+.readmore {
+    font-size: 14px;
+    margin-bottom: 15px 0;
+    font-weight: bold;
+}
+
+.readmore i {
+    font-size: 9px;
+    margin-left: 5px;
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+.readmore a {
+    font-family: var(--font-mpb);
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--color-default);
 }
 
 

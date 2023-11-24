@@ -9,31 +9,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css"> -->
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/mediaquery.css">
 </head>
 <body>
 
-    <!-- Banner Section -->
-    <div class="">
+<div>
+    <div class="inner-xxl">
         <div class="banner">
             <!-- Nav Bar Section-->
             <div class="menubar">
 
                 <!-- Logo Section -->
                 <div class="logo">
-                    <img src="./assets/images/" alt="" srcset="">
+                    <img src="./assets/images/tanner-logo-new.png" alt="" srcset="">
                 </div>
 
-                <ul>
-                    <li>NAVY SALT</li>
-                    <li>VOYAGER</li>
-                    <li>DRIFTER</li>
-                    <li>COLLECTION</li>
-                    <li>CONTACT</li>
+                <ul class="menu">
+                    <li class="hdline"><a href="#" class="active">NAVY SALT</a></li>
+                    <li><a href="#" class="active">VOYAGER</a></li>
+                    <li><a href="#">DRIFTER</a></li>
+                    <li><a href="#">COLLECTION</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
 
@@ -42,6 +43,25 @@
                 <p>Designed for utility</p>
                 <h1>NAVY SALT & PEPPER</h1>
                 <button type="button" class="btnGearUP"><span class="hline"></span>Gear UP<i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+
+            <!-- Option Section -->
+            <div class="slideroption">
+                <div class="btngp">
+                    <button class="btnactive">
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="vline"></div>
+                <p class="slideactive">01</p>
+                <p>02</p>
+                <p>03</p>
+                <p>04</p>
+                <p>05</p>
             </div>
 
 
@@ -55,11 +75,8 @@
         <div class="voyager">
 
             <div class="imgblock">
-                <h1>VOYAGER DAYPACK</h1>
-            </div>
-
-            <div class="txtblock">
                 <div class="rectblock">
+                    <h5>NAVY SALT & PEPPER</h5>
                     <p>Whether you’re stomping around outdoors 
                         or traversing the city, our Voyager Daypack 
                         was designed to be adaptable 
@@ -67,28 +84,24 @@
                         and a comfortable for people of all sizes.
                         this silhouette is versatile enough 
                         to fit just about anyone’s daily routine.</p>
+                    <h1>VOYAGER DAYPACK</h1>
+                    <button class="btnArrow"><img src="./assets/images/arrow-down.png" alt=""></button>
                 </div>
-
             </div>
         </div>
 
         <div class="drifter">
-            <div class="txtblock">
-                <div class="rectblock">
-                    <p>Whether you’re stomping around outdoors 
-                        or traversing the city, our Voyager Daypack 
-                        was designed to be adaptable 
-                        in all environments. Compact, lightweight 
-                        and a comfortable for people of all sizes.
-                        this silhouette is versatile enough 
-                        to fit just about anyone’s daily routine.</p>
+
+           <div class="imgblock">
+                <div class="drifter-rectblock">
+                    <h1>DRIFTER DOPP KIT</h1>
+                    <p>Field-tested from the peaks of the Cascades down 
+                        to the desert floor of Joshua Tree, the Wilderness Rucksack was built to put on some serious miles 
+                        for years to come. A comfortable, dependable combination of 14oz Salt & Pepper canvas, premium wool felt, and Cambara English bridle leather.</p>
+                    <h5>NAVY SALT & PEPPER</h5>
+                    <button class="btnArrow2"><img src="./assets/images/arrow-downs.png" alt=""></button>
                 </div>
-
-            </div>
-
-            <div class="imgblock">
-                <h1>DRIFTER DOPP KIT</h1>
-            </div>
+           </div>
         </div>
 
 
@@ -105,7 +118,7 @@
                         <img src="./assets/images/collection1.png" alt="collection1 image" srcset="" width="300">
                     </div>
                     <div>
-                        <img src="./assets/images/collection1.png" alt="collection1 image" srcset="" width="300">
+                        <img src="./assets/images/collection6.png" alt="collection1 image" srcset="" width="300">
                     </div>
                     <div class="c01mini">
                         <div><img src="./assets/images/collection2.png" alt="collection2 image" width="200"></div>
@@ -114,25 +127,68 @@
                     <div>
                         <h4 class="ch04">NOMAD DUFFLE</h4>
                         <p>This bag can be carried by hand, worn as backpack or slung over a shoulder depending on your traveling needs </p>
-                        <p><a href="#">READ MORE</a></p>
+                        <p class="readmore"><a href="#">READ MORE</a><i class="fa-solid fa-chevron-right"></i></p>
                         <p>
                             <img src="./assets/images/tanner-logo-new.png" alt="tanner logo">
                         </p>
                     </div>
 
                 </div>
-                
+                    
                 <div class="c02">
                     <h2>SPRUCE SALT & PEPPER</h2>
                     <p>We designed or Nomad Duffle as a versatile yet rugged piece of luggage that's just as comfortable outdoors as it is in an overhead compartment</p>
+                    <p class="readmore"><a href="#">READ MORE</a></p>
                 </div>
 
+                <div class="c03">
+
+                    <div class="c03mini">
+                        <img src="./assets/images/collection4.png" alt="collection1 image" srcset="" width="200">
+                        <img src="./assets/images/collection5.png" alt="collection1 image" srcset="" width="200">
+                    </div>
+
+                    <div class="c03mini2">
+                        <div><img src="./assets/images/collection7.jpg" alt="collection2 image" width="500"></div>
+                    </div>
+
+                    <div class="c03info">
+                        <h4 class="ch04">FIELD CAMERA BAG</h4>
+                        <p>Our field camera bag is constructed from 14oz Salt & Pepper canvas and Cambara Meridan English bridle leather. We've put these bags through the ringer in testing and we think you'll approve of the result. Our Camera Bag is fully lined and padded, and features and adjustable shoulder strap</p>
+                        <p class="readmore"><a href="#">READ MORE</a><i class="fa-solid fa-chevron-right"></i></p>
+                    </div>
+
+                </div>
     
-                <h2>FIELD CAMERA BAG</h2>
-                <p>Our field camera bag is constructed from 14oz Salt & Pepper canvas and Cambara Meridan English bridle leather. We've put these bags through the ringer in testing and we think you'll approve of the result. Our Camera Bag is fully lined and padded, and features and adjustable shoulder strap</p>
-    
-                <h1>VOYAGER<br/>DAYPACK</h1>
+                <h1 class="c04">VOYAGER<br/>DAYPACK</h1>
             </div>
+        </div>
+
+
+        <!-- Stock Items Section-->
+        <div class="items">
+
+            <div class="item-inner">
+                <div class="item-box">
+                    <img src="./assets/images/backpack5.png" alt="">
+                </div>
+                <div class="item-box">
+                    <img src="./assets/images/backpack1.png" alt="">
+                </div>
+                <div class="item-box">
+                    <img src="./assets/images/backpack3.png" alt="">
+                </div>
+                <div class="item-box">
+                    <img src="./assets/images/backpack4.png" alt="">
+                </div>
+                <div class="item-box">
+                    <img src="./assets/images/backpack3.png" alt="">
+                </div>
+                <div class="item-box">
+                    <img src="./assets/images/backpack2.png" alt="">
+                </div>
+            </div>
+
         </div>
 
         <!-- footer section -->
@@ -182,7 +238,7 @@
             </div>
         </div>
     </div>
-    
+</div>  
 
 
 
